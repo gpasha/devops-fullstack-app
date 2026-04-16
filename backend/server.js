@@ -64,5 +64,5 @@ app.use((err, req, res, _next) => {
 app.listen(PORT, () => {
   console.log(`🚀 Сервер запущен на порту ${PORT}`);
   console.log(`📊 API доступен по адресу: http://localhost:${PORT}/api`);
-  console.log('📊 API Version: 1.0.2');
+  console.log('📊 API Version: 1.0.1');
 });
